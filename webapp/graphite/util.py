@@ -24,6 +24,7 @@ try:
 except ImportError:
   from StringIO import StringIO
 
+import sys
 from os import environ
 from django.core.exceptions import ObjectDoesNotExist
 from django.contrib.auth.models import User
